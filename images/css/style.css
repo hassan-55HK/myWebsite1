@@ -5,6 +5,11 @@
 
 .navbar{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    cursor: pointer;
 }
 
 .logo{
@@ -47,6 +52,7 @@
 .rightNav{
     width: 50%;
     text-align: right;
+    padding: 0 23px;
 }
 
 #search{
@@ -57,7 +63,66 @@
 }
 
 .background{
-    background:url('../images/Sulu-Taw-Tawi-Tourist-Destination.jpg');
+    background:url('/images/Sulu-Taw-Tawi-Tourist-Destination.jpg');
     background-size: cover;
     background-blend-mode: white;
+}
+
+.main-box{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 50%;
+    margin: auto;
+    height: 60%;
+}
+
+.firstSection{
+    height: 200Vh;
+}
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: blocl;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 41px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.text-small{
+    font-size: 18px;
+}
+
+.btn{
+    margin: 7px 3px;
+    padding: 8px 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background:none;
+    cursor: pointer;
+}
+.btn-sm{
+    padding: 6px 10px;
+    vertical-align: middle;
 }
