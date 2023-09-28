@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Ubuntu+Mono:ital@1&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -127,15 +129,37 @@
     vertical-align: middle;
 }
 
-.secRight{
+.section{
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     max-width: 80%;
     margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    cursor: pointer;
 }
 
+.left{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu Mono', monospace;
+    cursor: pointer;
+    flex-direction: row-reverse;
+}
 .para{
     padding: 0 65px;
+}
+
+.imgFluid{
+    border: 2px solid white;
+    border-radius: 26px;
+    margin-top: 19px;
+    width:300px;
 }
