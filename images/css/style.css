@@ -126,3 +126,16 @@
     padding: 6px 10px;
     vertical-align: middle;
 }
+
+.secRight{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+}
+
+.para{
+    padding: 0 65px;
+}
